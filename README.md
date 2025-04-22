@@ -37,10 +37,10 @@ The agent **decides** which tool to use, how many queries to make, and synthesiz
 
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/mohitmittal1988/langchain-agentic-search.git
-cd langchain-agentic-search
-
+  ```bash
+  git clone https://github.com/mohitmittal1988/langchain-agentic-search.git
+  cd langchain-agentic-search
+  ```
 
 ### 2. Create a Virtual Environment
 
