@@ -40,3 +40,51 @@ The agent **decides** which tool to use, how many queries to make, and synthesiz
 ```bash
 git clone https://github.com/mohitmittal1988/langchain-agentic-search.git
 cd langchain-agentic-search
+
+
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Set Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+GROQ_API_KEY=your_groq_api_key
+```
+
+### 5. Run the App
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🔐 API Key Requirement
+
+When prompted in the UI, provide your **Groq API Key** to access the `Llama3-8b-8192` LLM.
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+├── app.py                     # Main Streamlit application
+├── requirements.txt           # Required packages
+├── .env                       # Environment token for HuggingFace
+└── README.md                  # Documentation
+```
+
+---
+
